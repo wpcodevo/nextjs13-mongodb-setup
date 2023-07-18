@@ -1,34 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# How to Setup and Use MongoDB in Next.js 13 App Directory
 
-## Getting Started
+Are you interested in using MongoDB with the new Next.js 13 app directory? If so, you're in luck! In this article, we'll explore how to set up and use MongoDB in the new Next.js 13 App Router. To simplify the development process, we'll utilize Typegoose, a thin wrapper around the Mongoose library, to create the necessary database models and TypeScript types.
 
-First, run the development server:
+![How to Setup and Use MongoDB in Next.js 13 App Directory](https://codevoweb.com/wp-content/uploads/2023/07/How-to-Setup-and-Use-MongoDB-in-Next.js-13-App-Directory.webp)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Topics Covered
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Running the Next.js Project on Your Machine
+- Setting up the Next.js Project
+- Creating a MongoDB Database
+    - Option 1: MongoDB Server running in Docker
+    - Option 2: Cloud MongoDB Database with Atlas
+- Connecting to the MongoDB Database
+- Creating the Database Model with Typegoose
+    - Creating the Model
+    - Configuring TypeScript
+- Creating the Next.js Server Functions
+- Using Server Actions in Next.js
+    - Enabling Server Actions in Next.js
+    - Creating the Server Actions in Next.js
+    - Creating the Todo Form Component
+    - Creating the Todo Item Component
+    - Adding the Components to a Page File
+- Creating the API using Next.js API Route Handlers
+    - Creating GET and POST Route Handlers
+    - Creating GET, PATCH, and DELETE Route Handlers
+- Conclusion
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Read the entire article here: [https://codevoweb.com/setup-and-use-mongodb-in-nextjs-13-app-directory/](https://codevoweb.com/setup-and-use-mongodb-in-nextjs-13-app-directory/)
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
